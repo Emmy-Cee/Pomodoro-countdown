@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	align-items: center;
+	height: 100vh;
+	font-family: sans-serif;
+}
+
+.stopwatch-container {
+	text-align: center;
+}
+
+.time-design {
+	padding: 10px;
+	background-color: #f08000;
+	color: #d70f0f;
+	font-family: Cursed Timer ULiL;
+	font-style: bold;
+	text-align: center;
+	width: 450px;
+	height: auto;
+	border-radius: 15px;
+}
+
+.time-display {
+	display: flex;
+	color: white;
+	justify-content: space-around;
+	font-size: 6em;
+	font-weight: 400;
+	margin-bottom: 0.5vh;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	margin: auto;
+	padding: 10px 10px;
+	font-size: 2em;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	font-family: Cursed Timer ULiL;
+}
+
+.start-btn {
+	background-color: green;
+	color: white;
+}
+
+.reset-btn {
+	background-color: red;
+	color: white;
+}
